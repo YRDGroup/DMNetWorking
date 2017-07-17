@@ -14,6 +14,16 @@
 		EB60DCFA1F1C5E140092C0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB60DCF81F1C5E140092C0C1 /* Main.storyboard */; };
 		EB60DCFC1F1C5E140092C0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB60DCFB1F1C5E140092C0C1 /* Assets.xcassets */; };
 		EB60DCFF1F1C5E140092C0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB60DCFD1F1C5E140092C0C1 /* LaunchScreen.storyboard */; };
+		EB60DD091F1C65860092C0C1 /* DMNetworkingConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD081F1C65860092C0C1 /* DMNetworkingConfig.m */; };
+		EB60DD151F1C68FD0092C0C1 /* MantleModelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD141F1C68FD0092C0C1 /* MantleModelMaker.m */; };
+		EB60DD181F1C695B0092C0C1 /* DMStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD171F1C695B0092C0C1 /* DMStatus.m */; };
+		EB60DD1B1F1C6A580092C0C1 /* DMHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD1A1F1C6A580092C0C1 /* DMHTTPManager.m */; };
+		EB60DD221F1C6ACE0092C0C1 /* DMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD211F1C6ACE0092C0C1 /* DMBaseRequest.m */; };
+		EB60DD271F1CA0580092C0C1 /* DMAPICacheRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD261F1CA0580092C0C1 /* DMAPICacheRequest.m */; };
+		EB60DD2A1F1CA3100092C0C1 /* DMModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD291F1CA3100092C0C1 /* DMModelRequest.m */; };
+		EB60DD2D1F1CA3CD0092C0C1 /* DMRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD2C1F1CA3CD0092C0C1 /* DMRequestGroup.m */; };
+		EB60DD301F1CA4E30092C0C1 /* NormalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD2F1F1CA4E30092C0C1 /* NormalRequest.m */; };
+		EB60DD331F1CA5230092C0C1 /* DMTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD321F1CA5230092C0C1 /* DMTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +40,28 @@
 		EB60DCFB1F1C5E140092C0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB60DCFE1F1C5E140092C0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB60DD001F1C5E140092C0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB60DD071F1C65860092C0C1 /* DMNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNetworkingConfig.h; sourceTree = "<group>"; };
+		EB60DD081F1C65860092C0C1 /* DMNetworkingConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNetworkingConfig.m; sourceTree = "<group>"; };
+		EB60DD0D1F1C65D90092C0C1 /* DMModelMakerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMModelMakerDelegate.h; sourceTree = "<group>"; };
+		EB60DD131F1C68FD0092C0C1 /* MantleModelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleModelMaker.h; sourceTree = "<group>"; };
+		EB60DD141F1C68FD0092C0C1 /* MantleModelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleModelMaker.m; sourceTree = "<group>"; };
+		EB60DD161F1C695B0092C0C1 /* DMStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMStatus.h; sourceTree = "<group>"; };
+		EB60DD171F1C695B0092C0C1 /* DMStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMStatus.m; sourceTree = "<group>"; };
+		EB60DD191F1C6A580092C0C1 /* DMHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHTTPManager.h; sourceTree = "<group>"; };
+		EB60DD1A1F1C6A580092C0C1 /* DMHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHTTPManager.m; sourceTree = "<group>"; };
+		EB60DD201F1C6ACE0092C0C1 /* DMBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseRequest.h; sourceTree = "<group>"; };
+		EB60DD211F1C6ACE0092C0C1 /* DMBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseRequest.m; sourceTree = "<group>"; };
+		EB60DD241F1C6D580092C0C1 /* DMRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRequestDelegate.h; sourceTree = "<group>"; };
+		EB60DD251F1CA0580092C0C1 /* DMAPICacheRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAPICacheRequest.h; sourceTree = "<group>"; };
+		EB60DD261F1CA0580092C0C1 /* DMAPICacheRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAPICacheRequest.m; sourceTree = "<group>"; };
+		EB60DD281F1CA3100092C0C1 /* DMModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMModelRequest.h; sourceTree = "<group>"; };
+		EB60DD291F1CA3100092C0C1 /* DMModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMModelRequest.m; sourceTree = "<group>"; };
+		EB60DD2B1F1CA3CD0092C0C1 /* DMRequestGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRequestGroup.h; sourceTree = "<group>"; };
+		EB60DD2C1F1CA3CD0092C0C1 /* DMRequestGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRequestGroup.m; sourceTree = "<group>"; };
+		EB60DD2E1F1CA4E30092C0C1 /* NormalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRequest.h; sourceTree = "<group>"; };
+		EB60DD2F1F1CA4E30092C0C1 /* NormalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalRequest.m; sourceTree = "<group>"; };
+		EB60DD311F1CA5230092C0C1 /* DMTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTestModel.h; sourceTree = "<group>"; };
+		EB60DD321F1CA5230092C0C1 /* DMTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +114,13 @@
 		EB60DCEE1F1C5E140092C0C1 /* DMNetworkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB60DD121F1C687D0092C0C1 /* Models */,
+				EB60DD0E1F1C685B0092C0C1 /* ModelMakers */,
 				EB60DD061F1C5F020092C0C1 /* DMNetworking */,
 				EB60DCF21F1C5E140092C0C1 /* AppDelegate.h */,
 				EB60DCF31F1C5E140092C0C1 /* AppDelegate.m */,
+				EB60DD2E1F1CA4E30092C0C1 /* NormalRequest.h */,
+				EB60DD2F1F1CA4E30092C0C1 /* NormalRequest.m */,
 				EB60DCF51F1C5E140092C0C1 /* ViewController.h */,
 				EB60DCF61F1C5E140092C0C1 /* ViewController.m */,
 				EB60DCF81F1C5E140092C0C1 /* Main.storyboard */,
@@ -107,8 +143,50 @@
 		EB60DD061F1C5F020092C0C1 /* DMNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				EB60DD0D1F1C65D90092C0C1 /* DMModelMakerDelegate.h */,
+				EB60DD071F1C65860092C0C1 /* DMNetworkingConfig.h */,
+				EB60DD081F1C65860092C0C1 /* DMNetworkingConfig.m */,
+				EB60DD191F1C6A580092C0C1 /* DMHTTPManager.h */,
+				EB60DD1A1F1C6A580092C0C1 /* DMHTTPManager.m */,
+				EB60DD241F1C6D580092C0C1 /* DMRequestDelegate.h */,
+				EB60DD2B1F1CA3CD0092C0C1 /* DMRequestGroup.h */,
+				EB60DD2C1F1CA3CD0092C0C1 /* DMRequestGroup.m */,
+				EB60DD1F1F1C6ABE0092C0C1 /* Request */,
 			);
 			path = DMNetworking;
+			sourceTree = "<group>";
+		};
+		EB60DD0E1F1C685B0092C0C1 /* ModelMakers */ = {
+			isa = PBXGroup;
+			children = (
+				EB60DD131F1C68FD0092C0C1 /* MantleModelMaker.h */,
+				EB60DD141F1C68FD0092C0C1 /* MantleModelMaker.m */,
+			);
+			name = ModelMakers;
+			sourceTree = "<group>";
+		};
+		EB60DD121F1C687D0092C0C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB60DD161F1C695B0092C0C1 /* DMStatus.h */,
+				EB60DD171F1C695B0092C0C1 /* DMStatus.m */,
+				EB60DD311F1CA5230092C0C1 /* DMTestModel.h */,
+				EB60DD321F1CA5230092C0C1 /* DMTestModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB60DD1F1F1C6ABE0092C0C1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EB60DD201F1C6ACE0092C0C1 /* DMBaseRequest.h */,
+				EB60DD211F1C6ACE0092C0C1 /* DMBaseRequest.m */,
+				EB60DD251F1CA0580092C0C1 /* DMAPICacheRequest.h */,
+				EB60DD261F1CA0580092C0C1 /* DMAPICacheRequest.m */,
+				EB60DD281F1CA3100092C0C1 /* DMModelRequest.h */,
+				EB60DD291F1CA3100092C0C1 /* DMModelRequest.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB60DD331F1CA5230092C0C1 /* DMTestModel.m in Sources */,
+				EB60DD151F1C68FD0092C0C1 /* MantleModelMaker.m in Sources */,
 				EB60DCF71F1C5E140092C0C1 /* ViewController.m in Sources */,
+				EB60DD181F1C695B0092C0C1 /* DMStatus.m in Sources */,
+				EB60DD1B1F1C6A580092C0C1 /* DMHTTPManager.m in Sources */,
+				EB60DD301F1CA4E30092C0C1 /* NormalRequest.m in Sources */,
 				EB60DCF41F1C5E140092C0C1 /* AppDelegate.m in Sources */,
+				EB60DD091F1C65860092C0C1 /* DMNetworkingConfig.m in Sources */,
+				EB60DD2A1F1CA3100092C0C1 /* DMModelRequest.m in Sources */,
+				EB60DD271F1CA0580092C0C1 /* DMAPICacheRequest.m in Sources */,
+				EB60DD2D1F1CA3CD0092C0C1 /* DMRequestGroup.m in Sources */,
 				EB60DCF11F1C5E140092C0C1 /* main.m in Sources */,
+				EB60DD221F1C6ACE0092C0C1 /* DMBaseRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +487,7 @@
 				EB60DD051F1C5E140092C0C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

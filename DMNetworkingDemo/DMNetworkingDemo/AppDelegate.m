@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DMNetworkingConfig.h"
+#import "MantleModelMaker.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [DMNetworkingConfig setDefaultBaseUrl:@"http://yingapi.yirendai.com"
+                   acceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil]
+                 allowInvalidCertificates:YES
+                      validatesDomainName:NO
+                        maxOperationCount:4
+                          timeOutInterval:20
+                               modelMaker:[MantleModelMaker class]];
+    [DMNetworkingConfig setCacheDirectory:@"dmApiCache"];
+    
     return YES;
 }
 

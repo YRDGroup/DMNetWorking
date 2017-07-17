@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NormalRequest.h"
+#import "DMTestModel.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NormalRequest *request = [NormalRequest new];
+    [request startWithCompletedBlock:^(DMBaseRequest *request) {
+        DMTestModel *model = (DMTestModel*)request.responseObject;
+        NSLog(@"%@",model);
+        
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
