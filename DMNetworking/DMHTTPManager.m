@@ -7,7 +7,7 @@
 //
 
 #import "DMHTTPManager.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "DMNetworkingConfig.h"
 
 @interface DMBaseRequest ()
